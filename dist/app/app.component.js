@@ -10,8 +10,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var user_1 = require('./user');
-var music_1 = require('./music');
+var login_component_1 = require('./user/login.component');
+var registration_component_1 = require('./user/registration.component');
+var album_component_1 = require('./music/album.component');
+var albums_component_1 = require('./music/albums.component');
 var shared_1 = require('./shared');
 var AppComponent = (function () {
     function AppComponent() {
@@ -20,16 +22,15 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            directives: [
-                router_1.ROUTER_DIRECTIVES,
-                user_1.LoginComponent,
-                user_1.RegistrationComponent,
-                music_1.AlbumComponent,
-                music_1.AlbumsComponent,
+            directives: router_1.ROUTER_DIRECTIVES.concat([
+                login_component_1.LoginComponent,
+                registration_component_1.RegistrationComponent,
+                album_component_1.AlbumComponent,
+                albums_component_1.AlbumsComponent,
                 shared_1.WelcomeComponent,
                 shared_1.FooterComponent,
                 shared_1.HeaderComponent
-            ],
+            ]),
             selector: 'app-root',
             templateUrl: 'app.component.html',
             styleUrls: ['app.component.css']

@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
-import { LoginComponent,RegistrationComponent } from './user';
-import { AlbumComponent,AlbumsComponent } from './music';
+import { LoginComponent } from './user/login.component';
+import { RegistrationComponent } from './user/registration.component';
+import { AlbumComponent, } from './music/album.component';
+import { AlbumsComponent } from './music/albums.component';
 import { HeaderComponent,FooterComponent,WelcomeComponent,PaginationComponent,SearchComponent } from './shared';
 @Component({
   moduleId: module.id,
   directives: [
-    ROUTER_DIRECTIVES,
+    ...ROUTER_DIRECTIVES,
     LoginComponent,
     RegistrationComponent,
     AlbumComponent,
