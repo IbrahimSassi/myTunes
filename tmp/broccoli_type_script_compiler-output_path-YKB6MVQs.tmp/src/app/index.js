@@ -4,4 +4,6 @@ function __export(m) {
 }
 __export(require('./environment'));
 __export(require('./app.component'));
+var routes_1 = require('./routes');
+exports.routes = routes_1.routes;
 //# sourceMappingURL=index.js.map
