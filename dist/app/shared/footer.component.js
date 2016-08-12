@@ -15,7 +15,7 @@ var FooterComponent = (function () {
     FooterComponent = __decorate([
         core_1.Component({
             selector: 'footer-component',
-            template: ""
+            template: "<h1>Footer</h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], FooterComponent);

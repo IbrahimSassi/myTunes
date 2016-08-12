@@ -15,7 +15,7 @@ var PaginationComponent = (function () {
     PaginationComponent = __decorate([
         core_1.Component({
             selector: 'pagination-component',
-            template: ""
+            template: "<h1>Pagination</h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], PaginationComponent);

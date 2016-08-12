@@ -15,7 +15,7 @@ var AlbumComponent = (function () {
     AlbumComponent = __decorate([
         core_1.Component({
             selector: 'album-component',
-            template: ""
+            template: "<h1>album</h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], AlbumComponent);

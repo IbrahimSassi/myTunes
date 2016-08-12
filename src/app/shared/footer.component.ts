@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector:'footer-component',
-    template : ``
+    template : `<h1>Footer</h1>`
 })
 
 export class FooterComponent{

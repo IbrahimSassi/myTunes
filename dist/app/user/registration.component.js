@@ -15,7 +15,7 @@ var RegistrationComponent = (function () {
     RegistrationComponent = __decorate([
         core_1.Component({
             selector: 'registration-component',
-            template: ""
+            template: "<h1>registration</h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], RegistrationComponent);
